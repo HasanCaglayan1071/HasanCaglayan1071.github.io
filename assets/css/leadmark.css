@@ -1,4 +1,17 @@
 @charset "UTF-8";
+/*!
+=========================================================
+* LeadMark Landing page
+=========================================================
+
+* Copyright: 2019 DevCRUD (https://devcrud.com)
+* Licensed: (https://devcrud.com/licenses)
+* Coded by www.devcrud.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 :root {
   --blue: #007bff;
@@ -30,6 +43,7 @@
   --font-family-sans-serif: "Poppins", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
 *,
 *::before,
 *::after {
@@ -43,7 +57,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section ,secondheaer {
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -3611,15 +3625,6 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
- .dropdown-secondheaer {
-   display: block;
-   padding: 0.5rem 1.5rem;
-   margin-bottom: 0;
-   font-size: 0.875rem;
-   color: #6c757d;
-   white-space: nowrap;
- }
-
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
@@ -5115,21 +5120,6 @@ input[type="button"].btn-block {
   border-top: 0;
 }
 
-.card-secondheaer {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card-secondheaer:first-child {
-  border-radius: calc(0 - 1px) calc(0 - 1px) 0 0;
-}
-
-.card-secondheaer + .list-group .list-group-item:first-child {
-  border-top: 0;
-}
-
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
@@ -5138,18 +5128,6 @@ input[type="button"].btn-block {
 
 .card-footer:last-child {
   border-radius: 0 0 calc(0 - 1px) calc(0 - 1px);
-}
-
-.card-header-tabs {
-  margin-right: -0.625rem;
-  margin-bottom: -0.75rem;
-  margin-left: -0.625rem;
-  border-bottom: 0;
-}
-
-.card-header-pills {
-  margin-right: -0.625rem;
-  margin-left: -0.625rem;
 }
 
 .card-header-tabs {
@@ -11167,15 +11145,13 @@ select.form-control,
 textarea.form-control {
   line-height: 1.5;
 }
-.ara{
-  width: 100px;
-  height: auto;
-}
+
 .media img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
+
 .mouse-icon {
   border: 2px solid #fff;
   border-radius: 16px;
